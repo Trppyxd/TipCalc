@@ -4,4 +4,90 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
+	<LinearLayout
+		android:orientation="vertical"
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:id="@+id/linearLayout1">
+		<TextView
+			android:text="Arve"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:gravity="center"
+			android:id="@+id/Textview_Bill"/>
+		<EditText
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/EditText_Bill" />
+		<TextView
+			android:text="Jootraha %"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:gravity="center"
+			android:id="@+id/TextView_Tip"/>
+		<SeekBar
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/Seekbar_Tip" />
+		<TextView
+			android:text="0"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:gravity="center"
+			android:id="@+id/TextView_TipPercent"/>
+		<LinearLayout
+			android:orientation="horizontal"
+			android:minWidth="25px"
+			android:minHeight="25px"
+			android:layout_width="match_parent"
+			android:layout_height="49.5dp"
+			android:id="@+id/linearLayout_horizontal"
+			android:layout_marginBottom="0.0dp"
+			android:layout_marginTop="0.0dp">
+			<TextView
+				android:text="Jootraha"
+				android:textAppearance="?android:attr/textAppearanceMedium"
+				android:layout_width="wrap_content"
+				android:layout_height="match_parent"
+				android:id="@+id/TextView_TipCost"
+				android:gravity="center"/>
+			<TextView
+				android:text="0"
+				android:textAppearance="?android:attr/textAppearanceMedium"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:id="@+id/TextView_TipCostNumber"
+				android:gravity="center"
+				android:layout_marginLeft="22.5dp" />
+		</LinearLayout>
+		<LinearLayout
+			android:orientation="horizontal"
+			android:minWidth="25px"
+			android:minHeight="25px"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/linearLayout3"
+			android:layout_marginBottom="30.0dp" >
+			<TextView
+				android:text="Kokku"
+				android:textAppearance="?android:attr/textAppearanceMedium"
+				android:layout_width="wrap_content"
+				android:layout_height="match_parent"
+				android:id="@+id/TextView_Total" />
+			<TextView
+				android:text="0"
+				android:textAppearance="?android:attr/textAppearanceMedium"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:gravity="center"
+				android:id="@+id/TextView_TotalNumber"
+				android:layout_marginLeft="45.0dp" />
+		</LinearLayout>
+	</LinearLayout>
+	
 </RelativeLayout>
